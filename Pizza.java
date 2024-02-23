@@ -23,11 +23,6 @@ public class Pizza {
         basePizza = this.price;
     }
 
-    public void getPizzaPrice() {
-        System.out.println(this.price);
-
-    }
-
     public void addExtraCheese() {
         isExtraCheeseAdded = true;
         this.price += extraCheese;
